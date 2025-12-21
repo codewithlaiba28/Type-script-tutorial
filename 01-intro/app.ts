@@ -4,7 +4,7 @@ let a = 12
 // string
 let b = "hello"
 // boolean
-let c = true   //or false
+let c = true   // or false
 
 
 // Array
@@ -14,7 +14,7 @@ let e= [1, 2, 3, {name:"hello"}, true]
 //touple
 let f:[number, string]= [1, "hello"]
 
-//enum
+// enum
 
 // enum Color {Red, Green, Blue}
 // let backgroundColor= Color.Red
@@ -36,46 +36,46 @@ let g: unknown;
 g= 1;
 g= true;
 
-//is mai problem hoti hai yani ke phele app type check karo pher change karo 
+// is mai problem hoti hai yani ke phele app type check karo pher change karo 
 
 
 
-//voild
+// voild
 // jo kuch return na kar raha ho
 
 function logMessage(message:string): void {
     console.log(message);
 }
 
-//null
+// null
 let h: null;
 
-//undefined
+// undefined
 let i: undefined;
 
-//never
+// never
 // jo kabhi bhi age ka code nahi chalne dega
 function doSomething(): never {
     throw new Error();
 }
 
 
-//Type inference
+// Type inference
 let j= 10;
-// j= "hello"  //error kyuki typescript ne infer kar liya hai ke j number hai
+// j= "hello"  // error kyuki typescript ne infer kar liya hai ke j number hai
 
-//Type annotation
+// Type annotation
 let k: number;
 k= 20;
  
 
-//interface
+// interface
 
 interface Person {
     name: string;
     age: number;
     isEmployed: boolean;
-    gender?: string; //optional property
+    gender?: string; // optional property
 
 }
 function greet(person: Person) {
@@ -83,12 +83,12 @@ function greet(person: Person) {
 }
 
 
-//extending interfaces
+// extending interfaces
 interface User {
     name: string;
     age: number;
     isEmployed: boolean;
-    gender?: string; //optional property
+    gender?: string; // optional property
 
 }
 function getData(User: User) {
@@ -137,11 +137,11 @@ let emptyDetails: EmployeeDetails = {
 // class and object
 
 class Bottle {
-    //properties
+    // properties
     color: string = "blue";
     capacity: number = 500;
 }
-//object of class
+// object of class
 let waterBottle = new Bottle();
 
 
