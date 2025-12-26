@@ -19,13 +19,3 @@ myDog.makeSound(); // Output: Woof! Woof!
 
 
 
-// function
-
-function abcd (name:string, age:number , cb: (name:string)=> void) {
-    cb(name);
-}
-
-abcd("Alice", 30, (name:string) => {
-    console.log(`Hello, ${name}`);
-}
-)
